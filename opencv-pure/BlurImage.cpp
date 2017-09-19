@@ -8,8 +8,8 @@ Mat src; Mat dst;
 char window_name1[] = "Unprocessed Image";
 char window_name2[] = "Processed Image";
 
-int main( int argc, char** argv )
-{
+int main( int argc, char** argv ){
+    
     /// Load the source image
     src = imread( argv[1], 1 );
 
